@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "swordclient",
+  "version": "${version}",
+  "name": "Sword Client",
+  "description": "Visual client: HUD, zoom, fullbright, sword offsets and a karambit skin.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.swordclient.SwordClient"] },
+  "mixins": ["swordclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

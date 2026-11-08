@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.swordclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererMixin",
+    "ItemInHandRendererMixin",
+    "ItemModelResolverMixin",
+    "ClientLevelMixin",
+    "LevelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
